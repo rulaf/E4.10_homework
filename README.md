@@ -6,6 +6,9 @@
 
 1. Скопируйте представленные в репозитории файлы - docker-compose.yml и nginx.conf в папку, из которой будет осуществляться запуск, либо склонируйте репозиторий git clone https://github.com/rulaf/E4.10_homework.git
 2. Перейдите в папку, в которой расположен файл docker-compose.yml 
-3. Запустите проект командой docker-compose up -d из папки, в которой расположен файл docker-compose.yml .
+3. Запустите проект командой 
+```
+docker-compose up -d 
+```
 4. В браузере перейдите по адресу http://localhost/admin/
 5. Для входа в админку используйте  логин admin, пароль admin
